@@ -1,0 +1,6 @@
+conda create -n textgen
+conda activate textgen
+conda install torchvision torchaudio pytorch-cuda=11.7 git -c pytorch -c nvidia
+git clone https://github.com/oobabooga/text-generation-webui
+cd text-generation-webui
+pip install -r requirements.txt
